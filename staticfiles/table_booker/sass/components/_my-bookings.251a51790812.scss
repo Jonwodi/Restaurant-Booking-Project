@@ -1,4 +1,4 @@
-.login {
+.my-bookings {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
@@ -10,6 +10,10 @@
 
   @include respond-to("small") {
     max-width: 600px;
+  }
+
+  table {
+    // color: var(--light);
   }
 
   a {
