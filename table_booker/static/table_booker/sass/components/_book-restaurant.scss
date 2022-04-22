@@ -1,0 +1,19 @@
+.book-restaurant {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  width: 80%;
+  margin: 250px auto 0px auto;
+  border: 5px solid var(--light);
+  padding: 25px 0px;
+  background-color: orange;
+
+  @include respond-to("small") {
+    max-width: 600px;
+  }
+
+  a {
+    color: var(--light);
+    font-size: 16px;
+  }
+}

@@ -28,7 +28,7 @@ SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG", cast=bool)
-
+DEBUG = True
 
 ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=Csv())
 
@@ -76,7 +76,7 @@ ROOT_URLCONF = "project.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "table_booker/template/table_booker"],
+        "DIRS": [BASE_DIR / "table_booker/templates/table_booker"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
