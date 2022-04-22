@@ -1,15 +1,15 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
 
-<h1>Delete Booking</h1>
-
-<p>Are you sure you want to delete:</p>
-<p>{{ booking.restaurant.name }}</p>
-<p>{{ booking.restaurant.table.name }}</p>
-<p>{{ booking.date }}</p>
-
-<form method="POST">
-  {% csrf_token %}
-  <button type="submit">YES, DELETE BOOKING</button>
-</form>
-
+{% block content %}
+  <section class="delete-bookings">
+    <h1>Delete Booking</h1>
+    <p>Are you sure you want to delete:</p>
+    <p>{{ booking.restaurant.name }}</p>
+    <p>{{ booking.restaurant.table.name }}</p>
+    <p>{{ booking.date }}</p>
+    <form method="POST">
+      {% csrf_token %}
+      <button type="submit">YES, DELETE BOOKING</button>
+    </form>
+  </section>
 {% endblock content %}

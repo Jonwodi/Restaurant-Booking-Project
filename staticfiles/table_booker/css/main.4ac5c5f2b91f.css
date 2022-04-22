@@ -14,17 +14,17 @@
 
 @font-face {
   font-family: "GemunuLibre Medium";
-  src: url(../fonts/GemunuLibre-Medium.ttf);
+  src: url("../fonts/GemunuLibre-Medium.5e616d056416.ttf");
 }
 
 @font-face {
   font-family: "GemunuLibre Bold";
-  src: url(../fonts/GemunuLibre-Bold.ttf);
+  src: url("../fonts/GemunuLibre-Bold.babe2ed44df0.ttf");
 }
 
 @font-face {
   font-family: "GemunuLibre ExtraBold";
-  src: url(../fonts/GemunuLibre-ExtraBold.ttf);
+  src: url("../fonts/GemunuLibre-ExtraBold.6da1d7018185.ttf");
 }
 
 html {
@@ -64,7 +64,7 @@ h1 {
 }
 
 body {
-  background-image: url(../images/restaurant.jpg);
+  background-image: url("../images/restaurant.66d5c4063646.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 750px;

@@ -70,18 +70,6 @@ body {
   min-height: 750px;
 }
 
-div {
-  text-align: center;
-}
-
-#message {
-  color: orange;
-}
-
-a {
-  color: orange;
-}
-
 .login {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,10 +96,6 @@ a {
 .login a {
   color: var(--light);
   font-size: 16px;
-}
-
-.login :hover a {
-  color: black;
 }
 
 .sign-up {
@@ -153,10 +137,6 @@ a {
   font-size: 16px;
 }
 
-.sign-up :hover a {
-  color: black;
-}
-
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,10 +163,6 @@ a {
 .home a {
   color: var(--light);
   font-size: 16px;
-}
-
-.home :hover a {
-  color: black;
 }
 
 .book-restaurant {
@@ -227,7 +203,7 @@ a {
           flex-flow: column wrap;
   -ms-flex-line-pack: center;
       align-content: center;
-  width: 100%;
+  width: 80%;
   margin: 250px auto 0px auto;
   border: 5px solid var(--light);
   padding: 25px 0px;
@@ -240,89 +216,8 @@ a {
   }
 }
 
-.my-bookings table {
-  border: 3px solid var(--light);
-  text-align: center;
-}
-
-.my-bookings th {
-  border: 2px solid var(--light);
-}
-
-.my-bookings tr {
-  border: 2px solid var(--light);
-}
-
-.my-bookings td {
-  border: 2px solid var(--light);
-}
-
-.my-bookings h1 {
-  text-align: center;
-}
-
 .my-bookings a {
   color: var(--light);
   font-size: 16px;
 }
-
-.my-bookings__actions :hover {
-  color: black;
-}
-
-.update-bookings {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 80%;
-  margin: 250px auto 0px auto;
-  border: 5px solid var(--light);
-  padding: 25px 0px;
-  background-color: orange;
-}
-
-@media (min-width: 767px) {
-  .update-bookings {
-    max-width: 600px;
-  }
-}
-
-.update-bookings a {
-  color: var(--light);
-  font-size: 16px;
-}
-
-.delete-bookings {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 80%;
-  margin: 250px auto 0px auto;
-  border: 5px solid var(--light);
-  padding: 25px 0px;
-  background-color: orange;
-}
-
-@media (min-width: 767px) {
-  .delete-bookings {
-    max-width: 600px;
-  }
-}
-
-.delete-bookings a {
-  color: var(--light);
-  font-size: 16px;
-}
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.1e51103bdbb8.css.map */

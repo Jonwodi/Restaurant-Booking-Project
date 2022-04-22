@@ -11,13 +11,16 @@
 </head>
 
 <body>
-  <p>{% include 'includes/messages.html' %}</p>
-  <a href="/">Home</a> | {% if request.user.is_authenticated %}
-  <a href="/my-bookings">My Bookings</a> | <a href="/logout">Logout</a> |
-
-  {% else %}
-  <a href="/signup">Signup</a>
-  {% endif %} {% block content %} {% endblock content %}
+  <div>
+      <p id="message">{% include 'includes/messages.html' %}</p>
+      <a href="/">Home</a> | {% if request.user.is_authenticated %}
+      <a href="/my-bookings">My Bookings</a> | <a href="/logout">Logout</a> |
+    {% else %}
+      <a href="/signup">Signup</a>
+    {% endif %} 
+  </div>
+  {% block content %} 
+  {% endblock content %}
 </body>
 
 </html>

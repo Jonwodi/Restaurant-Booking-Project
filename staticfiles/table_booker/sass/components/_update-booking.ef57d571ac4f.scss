@@ -1,32 +1,21 @@
-.sign-up {
+.update-bookings {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
   width: 80%;
   margin: 250px auto 0px auto;
   border: 5px solid var(--light);
-  padding: 25px;
+  padding: 25px 0px;
   background-color: orange;
-  margin-top: 20px;
 
   @include respond-to("small") {
-    max-width: 700px;
-    margin-top: 100px;
-    padding: 25px;
+    max-width: 600px;
   }
 
-  @include respond-to("large") {
-    max-width: 1000px;
-    margin-top: 100px;
-    padding: 25px 0px;
-  }
+
 
   a {
     color: var(--light);
     font-size: 16px;
-  }
-
-  :hover a {
-    color: black;
   }
 }
